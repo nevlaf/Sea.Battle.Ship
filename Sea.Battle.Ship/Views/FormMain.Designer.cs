@@ -34,23 +34,23 @@
             this.seaEnemyPanel = new System.Windows.Forms.Panel();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.SeaOwnGroupBox = new System.Windows.Forms.GroupBox();
-            this.SeaEnemyGroupBox = new System.Windows.Forms.GroupBox();
-            this.FourShip = new System.Windows.Forms.RadioButton();
-            this.ThreeShip = new System.Windows.Forms.RadioButton();
-            this.TwoShip = new System.Windows.Forms.RadioButton();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.countOwnFourShip = new System.Windows.Forms.TextBox();
-            this.countOwnThreeShip = new System.Windows.Forms.TextBox();
-            this.countOwnTwoShip = new System.Windows.Forms.TextBox();
-            this.countOwnOneShip = new System.Windows.Forms.TextBox();
-            this.countEnemyFourShip = new System.Windows.Forms.TextBox();
-            this.countEnemyThreeShip = new System.Windows.Forms.TextBox();
-            this.countEnemyTwoShip = new System.Windows.Forms.TextBox();
-            this.countEnemyOneShip = new System.Windows.Forms.TextBox();
             this.Oneship = new System.Windows.Forms.RadioButton();
+            this.countOwnOneShip = new System.Windows.Forms.TextBox();
+            this.countOwnTwoShip = new System.Windows.Forms.TextBox();
+            this.countOwnThreeShip = new System.Windows.Forms.TextBox();
+            this.countOwnFourShip = new System.Windows.Forms.TextBox();
+            this.TwoShip = new System.Windows.Forms.RadioButton();
+            this.ThreeShip = new System.Windows.Forms.RadioButton();
+            this.FourShip = new System.Windows.Forms.RadioButton();
+            this.SeaEnemyGroupBox = new System.Windows.Forms.GroupBox();
+            this.countEnemyOneShip = new System.Windows.Forms.TextBox();
+            this.countEnemyTwoShip = new System.Windows.Forms.TextBox();
+            this.countEnemyThreeShip = new System.Windows.Forms.TextBox();
+            this.countEnemyFourShip = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.SeaOwnGroupBox.SuspendLayout();
             this.SeaEnemyGroupBox.SuspendLayout();
             this.SuspendLayout();
@@ -101,6 +101,82 @@
             this.SeaOwnGroupBox.TabStop = false;
             this.SeaOwnGroupBox.Text = "OwnFleet";
             // 
+            // Oneship
+            // 
+            this.Oneship.AutoSize = true;
+            this.Oneship.Location = new System.Drawing.Point(7, 89);
+            this.Oneship.Name = "Oneship";
+            this.Oneship.Size = new System.Drawing.Size(64, 17);
+            this.Oneship.TabIndex = 8;
+            this.Oneship.TabStop = true;
+            this.Oneship.Text = "Oneship";
+            this.Oneship.UseVisualStyleBackColor = true;
+            // 
+            // countOwnOneShip
+            // 
+            this.countOwnOneShip.Location = new System.Drawing.Point(115, 91);
+            this.countOwnOneShip.Name = "countOwnOneShip";
+            this.countOwnOneShip.ReadOnly = true;
+            this.countOwnOneShip.Size = new System.Drawing.Size(100, 20);
+            this.countOwnOneShip.TabIndex = 6;
+            // 
+            // countOwnTwoShip
+            // 
+            this.countOwnTwoShip.Location = new System.Drawing.Point(115, 67);
+            this.countOwnTwoShip.Name = "countOwnTwoShip";
+            this.countOwnTwoShip.ReadOnly = true;
+            this.countOwnTwoShip.Size = new System.Drawing.Size(100, 20);
+            this.countOwnTwoShip.TabIndex = 5;
+            // 
+            // countOwnThreeShip
+            // 
+            this.countOwnThreeShip.Location = new System.Drawing.Point(115, 44);
+            this.countOwnThreeShip.Name = "countOwnThreeShip";
+            this.countOwnThreeShip.ReadOnly = true;
+            this.countOwnThreeShip.Size = new System.Drawing.Size(100, 20);
+            this.countOwnThreeShip.TabIndex = 4;
+            // 
+            // countOwnFourShip
+            // 
+            this.countOwnFourShip.Location = new System.Drawing.Point(115, 20);
+            this.countOwnFourShip.Name = "countOwnFourShip";
+            this.countOwnFourShip.ReadOnly = true;
+            this.countOwnFourShip.Size = new System.Drawing.Size(100, 20);
+            this.countOwnFourShip.TabIndex = 3;
+            // 
+            // TwoShip
+            // 
+            this.TwoShip.AutoSize = true;
+            this.TwoShip.Location = new System.Drawing.Point(7, 67);
+            this.TwoShip.Name = "TwoShip";
+            this.TwoShip.Size = new System.Drawing.Size(67, 17);
+            this.TwoShip.TabIndex = 2;
+            this.TwoShip.TabStop = true;
+            this.TwoShip.Text = "TwoShip";
+            this.TwoShip.UseVisualStyleBackColor = true;
+            // 
+            // ThreeShip
+            // 
+            this.ThreeShip.AutoSize = true;
+            this.ThreeShip.Location = new System.Drawing.Point(7, 44);
+            this.ThreeShip.Name = "ThreeShip";
+            this.ThreeShip.Size = new System.Drawing.Size(74, 17);
+            this.ThreeShip.TabIndex = 1;
+            this.ThreeShip.TabStop = true;
+            this.ThreeShip.Text = "ThreeShip";
+            this.ThreeShip.UseVisualStyleBackColor = true;
+            // 
+            // FourShip
+            // 
+            this.FourShip.AutoSize = true;
+            this.FourShip.Location = new System.Drawing.Point(7, 20);
+            this.FourShip.Name = "FourShip";
+            this.FourShip.Size = new System.Drawing.Size(67, 17);
+            this.FourShip.TabIndex = 0;
+            this.FourShip.TabStop = true;
+            this.FourShip.Text = "FourShip";
+            this.FourShip.UseVisualStyleBackColor = true;
+            // 
             // SeaEnemyGroupBox
             // 
             this.SeaEnemyGroupBox.Controls.Add(this.countEnemyOneShip);
@@ -117,68 +193,38 @@
             this.SeaEnemyGroupBox.TabIndex = 6;
             this.SeaEnemyGroupBox.TabStop = false;
             this.SeaEnemyGroupBox.Text = "EnemyFleet";
-            this.SeaEnemyGroupBox.Enter += new System.EventHandler(this.SeaEnemyGroupBox_Enter);
             // 
-            // FourShip
+            // countEnemyOneShip
             // 
-            this.FourShip.AutoSize = true;
-            this.FourShip.Location = new System.Drawing.Point(7, 20);
-            this.FourShip.Name = "FourShip";
-            this.FourShip.Size = new System.Drawing.Size(67, 17);
-            this.FourShip.TabIndex = 0;
-            this.FourShip.TabStop = true;
-            this.FourShip.Text = "FourShip";
-            this.FourShip.UseVisualStyleBackColor = true;
-            this.FourShip.CheckedChanged += new System.EventHandler(this.radioButton1_CheckedChanged);
+            this.countEnemyOneShip.Location = new System.Drawing.Point(93, 88);
+            this.countEnemyOneShip.Name = "countEnemyOneShip";
+            this.countEnemyOneShip.ReadOnly = true;
+            this.countEnemyOneShip.Size = new System.Drawing.Size(100, 20);
+            this.countEnemyOneShip.TabIndex = 7;
             // 
-            // ThreeShip
+            // countEnemyTwoShip
             // 
-            this.ThreeShip.AutoSize = true;
-            this.ThreeShip.Location = new System.Drawing.Point(7, 44);
-            this.ThreeShip.Name = "ThreeShip";
-            this.ThreeShip.Size = new System.Drawing.Size(74, 17);
-            this.ThreeShip.TabIndex = 1;
-            this.ThreeShip.TabStop = true;
-            this.ThreeShip.Text = "ThreeShip";
-            this.ThreeShip.UseVisualStyleBackColor = true;
+            this.countEnemyTwoShip.Location = new System.Drawing.Point(93, 66);
+            this.countEnemyTwoShip.Name = "countEnemyTwoShip";
+            this.countEnemyTwoShip.ReadOnly = true;
+            this.countEnemyTwoShip.Size = new System.Drawing.Size(100, 20);
+            this.countEnemyTwoShip.TabIndex = 6;
             // 
-            // TwoShip
+            // countEnemyThreeShip
             // 
-            this.TwoShip.AutoSize = true;
-            this.TwoShip.Location = new System.Drawing.Point(7, 67);
-            this.TwoShip.Name = "TwoShip";
-            this.TwoShip.Size = new System.Drawing.Size(67, 17);
-            this.TwoShip.TabIndex = 2;
-            this.TwoShip.TabStop = true;
-            this.TwoShip.Text = "TwoShip";
-            this.TwoShip.UseVisualStyleBackColor = true;
+            this.countEnemyThreeShip.Location = new System.Drawing.Point(93, 43);
+            this.countEnemyThreeShip.Name = "countEnemyThreeShip";
+            this.countEnemyThreeShip.ReadOnly = true;
+            this.countEnemyThreeShip.Size = new System.Drawing.Size(100, 20);
+            this.countEnemyThreeShip.TabIndex = 5;
             // 
-            // label1
+            // countEnemyFourShip
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(21, 22);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(49, 13);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "FourShip";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(21, 46);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(56, 13);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "ThreeShip";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(21, 69);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(49, 13);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "TwoShip";
+            this.countEnemyFourShip.Location = new System.Drawing.Point(93, 19);
+            this.countEnemyFourShip.Name = "countEnemyFourShip";
+            this.countEnemyFourShip.ReadOnly = true;
+            this.countEnemyFourShip.Size = new System.Drawing.Size(100, 20);
+            this.countEnemyFourShip.TabIndex = 4;
             // 
             // label4
             // 
@@ -189,81 +235,32 @@
             this.label4.TabIndex = 3;
             this.label4.Text = "OneShip";
             // 
-            // countOwnFourShip
+            // label3
             // 
-            this.countOwnFourShip.Location = new System.Drawing.Point(115, 20);
-            this.countOwnFourShip.Name = "countOwnFourShip";
-            this.countOwnFourShip.ReadOnly = true;
-            this.countOwnFourShip.Size = new System.Drawing.Size(100, 20);
-            this.countOwnFourShip.TabIndex = 3;
-            this.countOwnFourShip.TextChanged += new System.EventHandler(this.countOwnFourShip_TextChanged);
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(21, 69);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(49, 13);
+            this.label3.TabIndex = 2;
+            this.label3.Text = "TwoShip";
             // 
-            // countOwnThreeShip
+            // label2
             // 
-            this.countOwnThreeShip.Location = new System.Drawing.Point(115, 44);
-            this.countOwnThreeShip.Name = "countOwnThreeShip";
-            this.countOwnThreeShip.ReadOnly = true;
-            this.countOwnThreeShip.Size = new System.Drawing.Size(100, 20);
-            this.countOwnThreeShip.TabIndex = 4;
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(21, 46);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(56, 13);
+            this.label2.TabIndex = 1;
+            this.label2.Text = "ThreeShip";
             // 
-            // countOwnTwoShip
+            // label1
             // 
-            this.countOwnTwoShip.Location = new System.Drawing.Point(115, 67);
-            this.countOwnTwoShip.Name = "countOwnTwoShip";
-            this.countOwnTwoShip.ReadOnly = true;
-            this.countOwnTwoShip.Size = new System.Drawing.Size(100, 20);
-            this.countOwnTwoShip.TabIndex = 5;
-            // 
-            // countOwnOneShip
-            // 
-            this.countOwnOneShip.Location = new System.Drawing.Point(115, 91);
-            this.countOwnOneShip.Name = "countOwnOneShip";
-            this.countOwnOneShip.ReadOnly = true;
-            this.countOwnOneShip.Size = new System.Drawing.Size(100, 20);
-            this.countOwnOneShip.TabIndex = 6;
-            // 
-            // countEnemyFourShip
-            // 
-            this.countEnemyFourShip.Location = new System.Drawing.Point(93, 19);
-            this.countEnemyFourShip.Name = "countEnemyFourShip";
-            this.countEnemyFourShip.ReadOnly = true;
-            this.countEnemyFourShip.Size = new System.Drawing.Size(100, 20);
-            this.countEnemyFourShip.TabIndex = 4;
-            // 
-            // countEnemyThreeShip
-            // 
-            this.countEnemyThreeShip.Location = new System.Drawing.Point(93, 43);
-            this.countEnemyThreeShip.Name = "countEnemyThreeShip";
-            this.countEnemyThreeShip.ReadOnly = true;
-            this.countEnemyThreeShip.Size = new System.Drawing.Size(100, 20);
-            this.countEnemyThreeShip.TabIndex = 5;
-            // 
-            // countEnemyTwoShip
-            // 
-            this.countEnemyTwoShip.Location = new System.Drawing.Point(93, 66);
-            this.countEnemyTwoShip.Name = "countEnemyTwoShip";
-            this.countEnemyTwoShip.ReadOnly = true;
-            this.countEnemyTwoShip.Size = new System.Drawing.Size(100, 20);
-            this.countEnemyTwoShip.TabIndex = 6;
-            // 
-            // countEnemyOneShip
-            // 
-            this.countEnemyOneShip.Location = new System.Drawing.Point(93, 88);
-            this.countEnemyOneShip.Name = "countEnemyOneShip";
-            this.countEnemyOneShip.ReadOnly = true;
-            this.countEnemyOneShip.Size = new System.Drawing.Size(100, 20);
-            this.countEnemyOneShip.TabIndex = 7;
-            // 
-            // Oneship
-            // 
-            this.Oneship.AutoSize = true;
-            this.Oneship.Location = new System.Drawing.Point(7, 89);
-            this.Oneship.Name = "Oneship";
-            this.Oneship.Size = new System.Drawing.Size(64, 17);
-            this.Oneship.TabIndex = 8;
-            this.Oneship.TabStop = true;
-            this.Oneship.Text = "Oneship";
-            this.Oneship.UseVisualStyleBackColor = true;
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(21, 22);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(49, 13);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "FourShip";
             // 
             // FormMain
             // 
